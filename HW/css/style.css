@@ -3,3 +3,98 @@
 write your code here
 
 */
+
+/* @media print{
+    complete the task number 1
+
+   } */
+
+.tm-section-title-box{
+    transition-property: color, background-color;
+}
+.tm-section-title-box:hover{
+    color:white;
+    background-color: lightskyblue;
+}
+p::first-letter{
+    color:lightskyblue;
+    font-size: 30px;
+}
+/* shadows */
+.tm-sidebar{
+    box-shadow: 0px 2px 7px grey; 
+}
+#home{
+    box-shadow: 0px 0px 7px 2px grey;
+}
+.tm-banner{
+    border: grey solid 1px;
+}
+section{
+    box-shadow: 0px 0px 7px 2px grey;
+}
+/* 5-6-7 */
+.active .tm-section-title{
+    color: gainsboro;
+    letter-spacing: 5px;
+}
+h2+p{
+    font-style: italic;
+}
+p{
+    line-height: 200%;
+    text-indent: 30px;
+}
+#home p{
+    line-height: inherit;
+    text-indent: inherit;
+}
+/* we are section */
+
+.heading.tm-content-box a:visited{
+    text-decoration-color: #666;
+    color: #666;
+}
+.heading.tm-content-box a:hover{
+    text-decoration: none;
+    color:#666;
+}
+.heading.tm-content-box a{
+    color: #666;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.sup{
+    display: inline-block;
+    padding: 0;
+    margin-left: -4px;
+    font-size: 11px;
+    color:red;
+    vertical-align: super;
+}
+ /* task 9 */
+ .boxes.gallery-container p{
+    line-height: inherit;
+    text-indent: inherit;
+ }
+ .boxes.gallery-container p::first-letter{
+    color:#666;
+    font-size: 24px;
+ }
+ .box.box-work{
+    padding: 10px;
+ }
+ .no-bg{
+    background-color: #f5f5f5;
+ }
+/* task 10-11 */
+.mandatory-field::after {
+    content:" *"; 
+    color: #e32;
+    font-size: xx-large;
+}
+/* .submit-btn {
+    position: absolute;
+    z-index: 2;
+    background: orange; 
+} */
