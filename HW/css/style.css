@@ -4,10 +4,34 @@ write your code here
 
 */
 
-/* @media print{
-    complete the task number 1
-
-   } */
+/* task 1 */
+@media print {
+.hidden {
+    display: none;
+}
+.flex-item img{
+    width: 190px;
+    height: 190px;
+}
+.first-task{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tm-team-description-container.flex-item{
+    width: 350px;
+}
+.tm-banner{
+    padding: 0;
+    margin: 0;
+}
+h2.tm-section-title{
+    color: rgb(38, 38, 190);
+}
+.tm-banner{
+    width: 550px;
+}
+}
 
 .tm-section-title-box{
     transition-property: color, background-color;
@@ -26,13 +50,23 @@ p::first-letter{
 }
 #home{
     box-shadow: 0px 0px 7px 2px grey;
+    background-color: #eeeded;
 }
 .tm-banner{
     border: grey solid 1px;
+    background-clip: content-box;
+    background-color: white;
 }
 section{
     box-shadow: 0px 0px 7px 2px grey;
 }
+/* redesigning 1 section according to mockup */
+.fix-maket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* 5-6-7 */
 .active .tm-section-title{
     color: gainsboro;
@@ -91,10 +125,31 @@ p{
 .mandatory-field::after {
     content:" *"; 
     color: #e32;
-    font-size: xx-large;
+    font-size: x-large;
 }
-/* .submit-btn {
-    position: absolute;
-    z-index: 2;
-    background: orange; 
-} */
+.move-button{
+    display: flex;
+    justify-content: end;
+}
+.submit-btn{
+    color: lightskyblue;
+    background-color: white;
+    border-color: rgb(135, 206, 250);
+    padding: 10px 40px;
+    margin-top: -7px;
+    border-radius: 0;
+    transition-property: color, background-color, border-color;
+    letter-spacing: 0.05em;
+}
+.submit-btn:hover{
+    background-color: lightskyblue;
+    color:rgb(240, 239, 239);
+    border-color: rgb(144, 210, 252);
+}
+/* task 12 */
+.tm-main-nav a{
+    transition-property: background-color;
+}
+.tm-main-nav a:hover{
+    background-color: rgb(238, 238, 238);
+}
