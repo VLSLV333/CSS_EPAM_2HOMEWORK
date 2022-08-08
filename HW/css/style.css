@@ -29,10 +29,9 @@ h2.tm-section-title{
     color: rgb(38, 38, 190);
 }
 .tm-banner{
-    width: 550px;
+    width: 500px;
 }
 }
-
 .tm-section-title-box{
     transition-property: color, background-color;
 }
